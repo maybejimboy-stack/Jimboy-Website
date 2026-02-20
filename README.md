@@ -1,2 +1,0 @@
-# Jimboy-Website
-Personal Website
