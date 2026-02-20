@@ -1,0 +1,141 @@
+body{
+    display: grid;
+    grid-template-areas: 'header header header header'
+                         'navigation content content content'
+                         'navigation content content content'
+                         'navigation content content content'
+                         'footer footer footer footer';
+}
+#header{
+grid-area: header;
+font-size: 22   px;
+padding-top: 16px;
+position: static;
+background-color: rgb(108, 166, 216);
+}
+#header h1{
+    display: inline-flex;
+    padding-top: px;
+    margin-left: 350px;
+    background-color: bisque;
+}
+#header img{
+    float: left;
+    height: 100px; 
+    margin-left: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    
+}
+#navigation{
+grid-area: navigation;
+font-size: 28px;    
+background-color: rgb(225, 190, 108);
+}
+#navigation a{
+   display: block;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding-right: 20px;
+    margin-left: 110px;
+    text-decoration: none;
+    color: black;
+    background-color: peru;
+    display: inline-block;
+}
+#content{
+grid-area: content;
+background-color: rgb(229, 124, 220);
+
+
+}
+#content h1{
+    display:inline-block;
+    background-color: blanchedalmond;
+    margin-left: 100px;
+}
+#footer{
+    grid-area: footer;
+background-color: rgb(188, 205, 75);
+
+}
+#footer a{
+    font-size: 44px;
+    margin-left: 140px;
+    text-decoration: none;
+    color: brown;
+}
+.error {
+    border: 2px solid red;
+}
+
+
+
+.container {
+    display: flex;
+   gap: 30px;
+    margin: 15px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.box {
+    background: #efeeeedf;
+    border-radius: 10px;
+    padding: 40px;
+    width: 372px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+.box h2 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: #1c273e;
+    text-align: center;
+}
+
+
+
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #a6b8d1;
+    font-size: 14px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    outline: none;
+   border-color: #6366f1;
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.25);
+}
+
+
+
+
+button {
+    width: 100%;
+    margin-top: 18px;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #6366f1;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: #4f46e5;
+    transform: translateY(-2px);
+}
+
